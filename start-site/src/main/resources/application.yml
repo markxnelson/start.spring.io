@@ -1487,6 +1487,46 @@ initializr:
               href: https://googlecloudplatform.github.io/spring-cloud-gcp/reference/html/index.html#cloud-storage
             - rel: guide
               href: https://github.com/GoogleCloudPlatform/spring-cloud-gcp/tree/main/spring-cloud-gcp-samples/spring-cloud-gcp-storage-resource-sample
+    - name: Oracle
+      bom: oracle-spring-starters
+      compatibilityRange: "[3.0.0,3.3.0-M1)"
+      content:
+        - name: Oracle Database Support
+          id: oracle-database-support
+          groupId: com.oracle.database.spring
+          artifactId: oracle-spring-boot-starter-ucp
+          description: Auto-configuration for Oracle Database with Universal Connection Pool.
+          links:
+            - rel: guide
+              href: https://oracle.github.io/microservices-datadriven/spring/starters/
+              description: Using Oracle Database Universion Connection Pooling in a Spring Boot application
+            - rel: sample
+              href: https://github.com/oracle/microservices-datadriven/tree/main/cloudbank-v3/spring-apps-spring3
+              description: Oracle Spring Boot Samples
+        - name: Oracle Database Wallet (TLS authentication) Support
+          id: oracle-database-wallet-support
+          groupId: com.oracle.database.spring
+          artifactId: oracle-spring-boot-starter-wallet
+          description: Wallet-based authentication for Oracle Database.
+          links:
+            - rel: guide
+              href: https://oracle.github.io/microservices-datadriven/spring/starters/
+              description: Using Oracle Database Wallet in a Spring Boot application
+            - rel: sample
+              href: https://github.com/oracle/microservices-datadriven/tree/main/cloudbank-v3/spring-apps-spring3
+              description: Oracle Spring Boot Samples
+        - name: Oracle Database JMS Support
+          id: oracle-database-support
+          groupId: com.oracle.database.spring
+          artifactId: oracle-spring-boot-starter-aqjms
+          description: Auto-configuration for Transactional Event Queues or Oracle Advanced Queuing in Oracle Database as a JMS provider.
+          links:
+            - rel: guide
+              href: https://oracle.github.io/microservices-datadriven/spring/starters/
+              description: Using Transactional Event Queues as a JMS provider in a Spring Boot application
+            - rel: sample
+              href: https://github.com/oracle/microservices-datadriven/tree/main/cloudbank-v3/spring-apps-spring3
+              description: Oracle Spring Boot Samples
   types:
     - name: Gradle - Groovy
       id: gradle-project
